@@ -3,6 +3,7 @@
 Module for calculating minimum operations.
 """
 
+
 def minOperations(n):
     """
     Returns the minimum number of operations needed to reach n 'H' characters
