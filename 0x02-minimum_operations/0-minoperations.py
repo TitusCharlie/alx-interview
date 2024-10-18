@@ -1,14 +1,17 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """
-Module that calculates the minimum number of operations needed to get exactly n H characters.
+Module that calculates the minimum number of
+operations needed to get exactly n H characters.
 """
 
 def minOperations(n):
     """
-    Returns the minimum number of operations required to get n 'H' characters in the file.
+    Returns the minimum number of operations required to 
+    get n 'H' characters in the file.
     
     :param n: integer, the target number of 'H' characters
-    :return: integer, the minimum number of operations, or 0 if n is less than 2
+    :return: integer, the minimum number of operations, or 0 if n is 
+    less than 2
     """
     if n < 2:
         return 0
